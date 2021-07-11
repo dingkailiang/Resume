@@ -6,10 +6,10 @@
             "period" : "June 2018 - Now",
             "company" : "ABCS Safety Training",
             "contributes" : [
-                "Mainly working on an online LMS(learning management system) web application in a team of four developer.",
-                "Being export from MySQL, PHP on backend to Vue.js on frontend.",
-                "Introduced vue.js to our team and refactoring our project, designed and implemented most of basic components used by the whole team.",
-                "Individually completed a staff check-in mobile APP using React Native."
+                "Maintained a complex online LMS( learning management system) application prosperlms.com, and collaborated with team members to implement new features.",
+                "Being an expert from MySQL, PHP, and Node.js on the backend to HTML, CSS, and Vue.js on the frontend.",
+                "Introduced Vue.js to our team and led the team to reconstruct the application at an early stage by separating frontend and backend, which increased the maintainability and extensibility of the application.",
+                "Designed and implemented most of the basic frontend components and built a high usability backend framework from native PHP, which improved the productivity of the whole team."
             ]
         },
         {

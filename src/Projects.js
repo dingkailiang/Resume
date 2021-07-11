@@ -31,7 +31,7 @@ class Projects extends Component {
                         this.state.projects.map((p,i)=>(
                             <div key={i} className="col-xl-3 col-lg-6 col-md-12">
                                 <div className="portfolio-item">
-                                    <a href={p.target} className="set-bg port-pic" style={this.setBg(p.img)}></a>
+                                    <a href={p.target} className="set-bg port-pic" style={this.setBg(p.img)}>&nbs;</a>
                                     <h2>{p.name}</h2>
                                     <h6>{p.finishTime}</h6>
                                     {

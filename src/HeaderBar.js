@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from "./json/HeaderBar";
+import data from "./json/HeaderBar.json";
 class HeaderBar extends Component { 
     constructor(props){
         super(props)
@@ -9,7 +9,7 @@ class HeaderBar extends Component {
       return (
         <header>
             <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">{this.state.title}</a>
+                <a className="navbar-brand" href="/">{this.state.title}</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 		            <span className="navbar-toggler-icon"></span>
 		        </button>    
@@ -33,7 +33,7 @@ class HeaderBar extends Component {
                                 case "dropdown":
                                     return (
                                     <li className="nav-item dropdown" key={i}>
-                                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i className={nav_item.icon}></i> {nav_item.name}
                                         </a>
                                         <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
