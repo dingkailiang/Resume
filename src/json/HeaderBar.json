@@ -44,13 +44,13 @@
                     "name" : " .doc",
                     "type" : "download",
                     "icon" : "far fa-file-word",
-                    "target" : "/files/Dylan Liang Resume.docx"
+                    "target" : "/files/DylanLiang_Resume.docx"
                 },
                 {
                     "name" : " .pdf",
                     "type" : "download",
                     "icon" : "far fa-file-pdf",
-                    "target" : "/files/Dylan Liang Resume.pdf"
+                    "target" : "/files/DylanLiang_Resume.pdf"
                 }
             ]
         }
