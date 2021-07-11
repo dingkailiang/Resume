@@ -42,7 +42,7 @@ class HeaderBar extends Component {
                                                 switch (nav_item.type){
                                                     case "download":
                                                         return (
-                                                            <a key={i} className="dropdown-item" href={nav_item.target} download><i className={nav_item.icon}></i> {nav_item.name}</a>
+                                                            <a key={i} className="dropdown-item" href={process.env.PUBLIC_URL + nav_item.target} download><i className={nav_item.icon}></i> {nav_item.name}</a>
                                                         )
                                                     case "divider":
                                                         return (<div key={i} className="dropdown-divider"></div>)

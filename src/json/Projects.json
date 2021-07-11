@@ -4,7 +4,7 @@
     "projects" : [
         {
             "name" : "Social Network Website Project",
-            "img" : "./img/django.png",
+            "img" : "/img/django.png",
             "target" : "https://github.com/dingkailiang/cmput404-project",
             "finishTime" : "Fall 2017",
             "contributes" : [
@@ -15,7 +15,7 @@
         },
         {
             "name" : "StarCraft AI",
-            "img" : "./img/starcraft.jpg",
+            "img" : "/img/starcraft.jpg",
             "target" : "https://github.com/dingkailiang/c350",
             "finishTime" : "Winter 2015",
             "contributes" : [
@@ -26,7 +26,7 @@
         },
         {
             "name" : "DVD Collector Android APP",
-            "img" : "./img/android.jpg",
+            "img" : "/img/android.jpg",
             "target" : "https://github.com/dingkailiang/Project",
             "finishTime" : "Fall 2015",
             "contributes" : [
